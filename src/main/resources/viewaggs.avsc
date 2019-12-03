@@ -1,0 +1,11 @@
+{"namespace": "ksql",
+  "type": "record",
+  "name": "aggviews",
+  "fields": [
+    {"name": "useridcount", "type": "int"},
+    {"name": "pageid", "type": "string"},
+    {"name": "totalviewtime", "type": "string"},
+    {"name": "gender", "type": "string"}
+  ],
+  "connect.name": "ksql.aggviews"
+}

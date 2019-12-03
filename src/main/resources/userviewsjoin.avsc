@@ -1,0 +1,12 @@
+
+{"namespace": "ksql",
+  "type": "record",
+  "name": "views",
+  "fields": [
+    {"name": "userid", "type": "string"},
+    {"name": "pageid", "type": "string"},
+    {"name": "viewtime", "type": "long"},
+    {"name": "gender", "type": "string"}
+  ],
+  "connect.name": "ksql.views"
+}
